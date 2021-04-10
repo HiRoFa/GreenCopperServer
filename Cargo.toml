@@ -11,16 +11,15 @@ edition = "2018"
 green_copper_runtime =  { git = 'https://github.com/HiRoFa/GreenCopperRuntime', branch="main", features = ["all"]}
 quickjs_runtime = "0.3"
 libquickjs-sys = "0.9.0"
+tokio = {version = "1", features = ["full"]}
 
-warp = "0.3.1"
+warp = "0.3"
 log = "0.4"
-simple-logging = "2.0.2"
+simple-logging = "2.0"
 
 num_cpus = "1.11"
 
 lazy_static = "1.4.0"
-
-
 
 [[bin]]
 name = "greco_srv"
